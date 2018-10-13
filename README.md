@@ -7,6 +7,9 @@ I'm using this repo to teach myself the Google Maps API using the NPM package [g
  * Remove markers from map.
  * Draw lines between markers.
  * Display info window on active markers.
+ * keeps track of map center with search and user interaction.
+## Bugs
+  * Removing markers does not remove drawn lines on map.
 ## Quick start
   1. Terminal commands to install.
 
