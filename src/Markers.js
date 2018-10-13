@@ -9,6 +9,7 @@ const Markers = props => (
       title={marker.name}
       name={index}
       position={{ lat: marker.lat, lng: marker.lng }}
+      onClick={props.onMarkerClick}
     />
   )
 );
